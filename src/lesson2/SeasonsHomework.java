@@ -5,29 +5,34 @@ public class SeasonsHomework {
     /**
      * Ունեք թվերի մասիվ, որոնք պետք է ունենան 1-12 արժեքներ
      * int[] months = {1, 3, 6, 9, 12};
-     *
+     * <p>
      * Գրեք կոդի հատված, որը կտպի մասիվի ԲՈԼՈՐ թվերին համապատասխան ամիսների անունները
-     *
+     * <p>
      * Օրինակ՝ մասիվի մեջ ունենալով 3 թիվը, պետք է ակնկալել Մարտ ամիսը ․․․
      * Խնդիրը լուծել 2 եղանակով՝
-     *
+     * <p>
      * Լուծում 1:
      * for-i , if-else if
-     *
+     * <p>
      * Լուծում 2:
      * foreach, switch
      */
     public static void main(String[] args) {
-//        solution 1: fori + if
-
-
-
-
-//        solution 2: foreach + switch
-
-
-
-
-
+        int[] months = {1, 3, 6, 9, 12};
+        for (int i = 0; i < months.length; i++) {
+            int month = months[i];
+            if (month == 1) {
+                System.out.println("January");
+            } else if (month == 3) {
+                System.out.println("March");
+            } else if (month == 6) {
+                System.out.println("June");
+            } else if (month == 9) {
+                System.out.println("September");
+            } else if (month == 12) {
+                System.out.println("December");
+            }
+        }
     }
 }
+
