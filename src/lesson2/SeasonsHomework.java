@@ -30,10 +30,11 @@ public class SeasonsHomework {
             } else if (month == 9) {
                 System.out.println("September");
             } else if (month == 12) {
-               System.out.println("December");
-           }
-    }
+                System.out.println("December");
+            }
+        }
 
+        System.out.println("---------------------");
 
         for (int m : months) {
             switch (m) {
